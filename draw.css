@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+background-color: red;
+width: 60vh;
+height: 60vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.box{
+width: 45vh;
+height: 45vh;
+background-color: rgb(35, 140, 206);
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.inner{
+background-color: rgb(143, 204, 21);
+width: 30vh;
+height: 30vh;
+}
